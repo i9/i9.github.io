@@ -2,6 +2,7 @@
  * Globals
  */
 
+.wrapper {overflow: auto;}
 @media screen and (min-width: 700px) {
   #main {
       margin: auto;
