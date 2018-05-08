@@ -2,6 +2,15 @@
  * Globals
  */
 
+@media screen and (min-width: 700px) {
+  #main {
+      margin: auto;
+      width: 700px;
+      border: none;
+      padding: 10px;
+  }
+}
+
 /* Links */
 a,
 a:focus,
