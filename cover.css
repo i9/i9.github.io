@@ -2,16 +2,6 @@
  * Globals
  */
 
-.wrapper {overflow: auto;}
-@media screen and (min-width: 700px) {
-  #main {
-      margin: auto;
-      width: 700px;
-      border: none;
-      padding: 10px;
-  }
-}
-
 /* Links */
 a,
 a:focus,
@@ -40,7 +30,7 @@ p.contact {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background: linear-gradient(to right top, #263e60, #203658, #192f4f, #132847, #0c213f);
 } 
 
 body {
@@ -69,6 +59,7 @@ body {
 }
 
 .masthead-brand {
+  margin-top: 2rem;
   margin-bottom: 0;
 }
 
