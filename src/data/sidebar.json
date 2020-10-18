@@ -1,0 +1,12 @@
+[
+  {
+    "docs": {
+      "Getting Started": ["guide"],
+      "Solo Game": ["solo-game"],
+      "Turn-based Game": [
+        "simple-turn-based-game",
+        "smart-contract-enabled-game"
+      ]
+    }
+  }
+]

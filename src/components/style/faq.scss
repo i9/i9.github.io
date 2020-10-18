@@ -1,0 +1,28 @@
+.qContainer {
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+.question {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 1.6rem 0;
+}
+.ans {
+  overflow: hidden;
+  max-height: 0px;
+  transition: all 500ms;
+}
+
+.ansActive {
+  max-height: 800px;
+  transition: all 500ms;
+}
+
+.flip {
+  transform: rotate(180deg);
+  transform-origin: center center;
+  transition: all 500ms;
+}
+.faAngleDown {
+  transition: all 500ms;
+}
