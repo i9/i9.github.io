@@ -5,7 +5,7 @@ import apk from "../../images/downloadBtn/Apk-button.png"
 import CC from "../../images/gameslogo/cc.png"
 import DC from "../../images/gameslogo/dc.jpg"
 import BAM from "../../images/gameslogo/bam.jpg"
-import SW from "../../images/gameslogo/sw.png"
+import FP from "../../images/gameslogo/fp.png"
 import FJ from "../../images/gameslogo/fj.png"
 import Frog from "../../images/gameslogo/frog.jpg"
 import DB from "../../images/gameslogo/db.png"
@@ -62,14 +62,14 @@ export default function Games() {
            <div className="col-md-6 col-lg-6 col-sm-12 py-3">
           <div className="row p-2">
           <div className="col-3">
-           <img src={SW} width="100%" style={{borderRadius:"12px"}}/>
+           <img src={FP} width="100%" style={{borderRadius:"12px"}}/>
           </div>
           <div className="col-9">
             <h3 className="content-medium-title w font-w-bold">
-              Solitaire Win!
+              Fruit Punch
             </h3>
             <p className="content-small l-grey">
-             Solitaire Win is the world's top classic Klondike Solitaire card game for your iPhone and iPad devices.
+             Chop! Burst! Squeeze! Cheer up, move your fingers, and erase the fruits in hight spirits!
             </p>
           </div>
           </div>
