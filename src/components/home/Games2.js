@@ -89,9 +89,7 @@ export default function Games() {
             </p>
           </div>
           </div>
-          
           </div>
-    
       </div>
     </Section>
   )
