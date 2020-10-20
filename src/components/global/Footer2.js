@@ -18,11 +18,15 @@ export default class Footer extends Component {
             //tos and privacy should put under celer.network
             item: "Terms of Service",
             url: "/doc/tos.pdf",
+            target: "_blank",
+            rel: "noopener noreferrer",
             
           },
           {
             item: "Privacy Policy",
-            url: "/doc/Privacy-Policy.pdf",
+            url: "/doc/tos.pdf",
+            target: "_blank",
+            rel: "noopener noreferrer",
             
           },
         ],
