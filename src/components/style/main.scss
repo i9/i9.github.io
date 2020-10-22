@@ -50,8 +50,19 @@ $bg-color: #040c14;
   &-outer {
     width: 100%;
   }
-}
+  &-backgroundImg {
+    // height: 100%;
 
+    background-image: url("../../images/home/hero3Cover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5.6rem 0;
+  }
+}
+h1 {
+  font-size: 4.4rem;
+}
 h2 {
   font-size: 3rem;
   font-style: normal;
@@ -285,8 +296,18 @@ a:hover {
     &-outer {
       width: 100%;
     }
+    &-backgroundImg {
+      // height: 100%;
+      background-image: url("");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 5.6rem 0;
+    }
   }
-
+  h1 {
+    font-size: 2rem;
+  }
   h2 {
     font-size: 1.8rem;
     font-style: normal;

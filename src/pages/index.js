@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Layout from "../components/layout";
-import Hero from "../components/home/Hero2";
+import Hero from "../components/home/Hero3";
 import Games from "../components/home/Games2"
 import Feature from "../components/home/FeatureOpt2";
 //import Partners from "../components/home/Partner"
