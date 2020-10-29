@@ -13,12 +13,16 @@ import SEO from "../components/seo";
 
 export default class IndexPage extends Component {
   render() {
+    
+      window.location.href = "https://celerx.app/"
+    
     return (
-  <Layout>
-    <SEO title="Home" />
-    <Hero />
-    <Games/>
-  </Layout>
+  // <Layout>
+  //   <SEO title="Home" />
+  //   <Hero />
+  //   <Games/>
+  // </Layout>
+  <a href="celerx.app"></a>
     );
   }
 }
