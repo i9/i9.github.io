@@ -11,7 +11,7 @@ import SEO from "../components/seo";
 
 
 
-if (typeof window !== `undefined`) window.location.replace(`https://celerx.app/`) 
+// if (typeof window !== `undefined`) window.location.replace(`https://celerx.app/`) 
 
 
 export default class IndexPage extends Component {
@@ -20,12 +20,12 @@ export default class IndexPage extends Component {
    
     
     return (
-  // <Layout>
-  //   <SEO title="Home" />
-  //   <Hero />
-  //   <Games/>
-  // </Layout>
-  <a href="celerx.app">celerx.app</a>
+  <Layout>
+    <SEO title="Home" />
+    <Hero />
+    <Games/>
+  </Layout>
+  // <a href="celerx.app">celerx.app</a>
     );
   }
 }
