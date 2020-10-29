@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import Layout from "../components/layout";
 import Hero from "../components/home/Hero3";
 import Games from "../components/home/Games2"
@@ -10,11 +11,13 @@ import SEO from "../components/seo";
 
 
 
+if (typeof window !== `undefined`) window.location.replace(`https://celerx.app/`) 
+
 
 export default class IndexPage extends Component {
+  
   render() {
-    
-      window.location.href = "https://celerx.app/"
+   
     
     return (
   // <Layout>
@@ -22,7 +25,7 @@ export default class IndexPage extends Component {
   //   <Hero />
   //   <Games/>
   // </Layout>
-  <a href="celerx.app"></a>
+  <a href="celerx.app">celerx.app</a>
     );
   }
 }
