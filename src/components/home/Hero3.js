@@ -8,7 +8,7 @@ export default function Hero() {
   
     <Section
       secHeight={"sec-backgroundImg"}
-      extraMargin={"44px 0 0 0"}
+      extraMargin={"88px 0  0"}
     >
       <div className="row" >
         <div className="col-md-12 col-lg-12 col-sm-12">
@@ -18,12 +18,12 @@ export default function Hero() {
             <br /> Platform
           </h1>
         </div>
-        <div className="col-sm-12 mt-4">
+        {/* <div className="col-sm-12 mt-4">
           <a href="https://apps.apple.com/us/app/cash-clash-games-win-money/id1459895768">
             <img src={iosBtn} className="d-block mx-auto mx-md-0 mx-lg-0" width="180px"/>
           </a>
           
-        </div>
+        </div> */}
       </div>
     </Section>
     
