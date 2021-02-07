@@ -24,7 +24,7 @@ export default class Footer extends Component {
           },
           {
             item: "Privacy Policy",
-            url: "/doc/tos.pdf",
+            url: "/doc/Privacy-Policy.pdf",
             target: "_blank",
             rel: "noopener noreferrer",
             
