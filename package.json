@@ -32,7 +32,7 @@
     "gatsby-transformer-remark": "^2.6.6",
     "gatsby-transformer-sharp": "^2.2.0",
     "jquery": "^3.5.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "numeral": "^2.0.6",
     "popper.js": "^1.14.3",
     "prismjs": "^1.16.0",
