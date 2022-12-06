@@ -1,0 +1,10 @@
+.downloadContent {
+  position: absolute;
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  @media (max-width: 991.98px) {
+    position: static;
+    transform: translateX(0);
+  }
+}

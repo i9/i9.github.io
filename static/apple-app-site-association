@@ -1,0 +1,26 @@
+---
+permalink: /.well-known/apple-app-site-association
+---
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+           {
+             "appID": "25KA2BRRPZ.network.celer.celerx",
+             "paths": [ "/ios/network.celer.celerx/*"]
+           },
+           {
+             "appID": "25KA2BRRPZ.celerx.app.daubcash",
+             "paths": [ "/ios/celerx.app.daubcash/*"]
+           },
+           {
+             "appID": "25KA2BRRPZ.celerx.app.solitaire",
+             "paths": [ "/ios/celerx.app.solitaire/*"]
+           },
+        
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "25KA2BRRPZ.network.celer.celerx","25KA2BRRPZ.celerx.app.daubcash","25KA2BRRPZ.celerx.app.solitaire" ]
+   }
+}
