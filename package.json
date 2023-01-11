@@ -29,7 +29,7 @@
     "gatsby-remark-use-frontmatter-path": "^1.0.0",
     "gatsby-source-filesystem": "^2.3.24",
     "gatsby-transformer-json": "^2.2.0",
-    "gatsby-transformer-remark": "^2.6.6",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.2.0",
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
