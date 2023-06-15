@@ -33,13 +33,6 @@ export default class Footer extends Component {
             target: "_blank",
             rel: "noopener noreferrer",
           },
-          {
-            item: "Headquartered in Mountain View, California",
-            link: "",
-            url: "",
-            target: "",
-            rel: "noopener noreferrer",
-          },
         ],
       },
       {
