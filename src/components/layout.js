@@ -3,11 +3,13 @@ import React from "react"
 import PropTypes from "prop-types"
 import Navbar from "../components/global/NavBar"
 import Footer from "./global/Footer"
-import layoutStyle from "./style/layout.module.scss"
+import * as layoutStyleModule from "./style/layout.module.scss"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { fab } from "@fortawesome/free-brands-svg-icons"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../components/style/main.scss"
+
+const layoutStyle = layoutStyleModule.default || layoutStyleModule
 
 const Layout = ({ children }) => {
   return (

@@ -5,8 +5,6 @@ import cnicorn from "../../images/404/cnicorn.gif"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 
-import window from "global"
-
 export default class test extends Component {
   componentDidMount() {
     var URL = window.location.href

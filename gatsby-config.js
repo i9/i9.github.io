@@ -5,17 +5,6 @@ module.exports = {
     author: `@Celer`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-130562530-6",
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: true,
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-      },
-    },
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
@@ -63,13 +52,13 @@ module.exports = {
           "https://network.us18.list-manage.com/subscribe/post?u=14515d7b0afa9164f775c4b8b&amp;id=0d1e5df173", // add your MC list endpoint here; see instructions below
       },
     },
-    `gatsby-plugin-remove-trailing-slashes`,
-    {
-      resolve: `gatsby-plugin-facebook-pixel`,
-      options: {
-        pixelId: "978781102474574",
-      },
-    },
+    // `gatsby-plugin-remove-trailing-slashes`,
+    // {
+    //   resolve: `gatsby-plugin-facebook-pixel`,
+    //   options: {
+    //     pixelId: "978781102474574",
+    //   },
+    // },
     `gatsby-plugin-nprogress`,
 
     // this (optional) plugin enables Progressive Web App + Offline functionality

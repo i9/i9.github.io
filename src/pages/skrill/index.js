@@ -4,8 +4,6 @@ import cnicorn from "../../images/404/cnicorn.gif"
 import { navigate, replace } from "gatsby"
 import "bootstrap/dist/css/bootstrap.min.css"
 
-import window from "global"
-
 export default class index extends Component {
   componentDidMount() {
     var URL = window.location.href

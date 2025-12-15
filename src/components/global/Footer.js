@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import logo from "../../images/logo/White.png"
 import Section from "../global/Section"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import footerStyle from "../style/footer.module.scss"
+import * as footerStyleModule from "../style/footer.module.scss"
 import { StaticQuery, graphql } from "gatsby"
 import Newsletter from "./Newsletter"
 import Mastercard from "../../images/footer/mastercard.png" 
@@ -12,6 +12,8 @@ import Discover from "../../images/footer/discover.png"
 import Applepay from "../../images/footer/applepay.png"
 import Skrill from "../../images/footer/skrill.png"
 import Paypal from "../../images/footer/paypal.png"
+
+const footerStyle = footerStyleModule.default || footerStyleModule
 
 export default class Footer extends Component {
   state = {
